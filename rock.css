@@ -1,0 +1,43 @@
+#container{
+    display:flex;
+    justify-content: space-evenly;
+}
+#rock{
+    height:300px;
+    width:300px;
+    background-color: grey;
+}
+#paper{
+    height:300px;
+    width:300px;
+    background-color: white;
+
+}
+#scissor{
+    height:300px;
+    width:300px;
+    background-color:black;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .choices {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  
+  .result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
